@@ -1,0 +1,22 @@
+@mixin flexCenter() {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+@mixin btn-learn-more {
+    .learn-more {
+        justify-content: center;
+        text-align: center;
+        a {
+          font-size: 15px;
+          padding: 10px 20px;
+          background-color: #031634;
+          border-radius: 50px;
+          color: white;
+      
+        }
+    
+      }
+}
