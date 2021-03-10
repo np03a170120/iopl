@@ -48,6 +48,66 @@
     </div>
 </section>
 
+<!-- <section class="main-about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="main-about-content">
+                    <div class="sec-title">
+                        <p>Lifetime opportunity</p>
+                        <h3>Who are we?</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> -->
+
+<!-- ABOUT US -->
+<section class="main-about sec-padding">
+    <div class="container">
+        <div class="main-about-top-content">
+            <div class="sec-title">
+                <p>Know us</p>
+                <h3>Indigo Overseas</h3>
+            </div>
+            <div class="ma-text">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="ma-text">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea nemo dignissimos animi unde aspernatur cum maiores dolorem, iste sed amet porro sit ab inventore vel harum suscipit cupiditate illo distinctio!
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea nemo dignissimos animi unde aspernatur cum maiores dolorem, iste sed amet porro sit ab inventore vel harum suscipit cupiditate illo distinctio!
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea nemo dignissimos animi unde aspernatur cum maiores dolorem, iste sed amet porro sit ab inventore vel harum suscipit cupiditate illo distinctio!
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea nemo dignissimos animi unde aspernatur cum maiores dolorem, iste sed amet porro sit ab inventore vel harum suscipit cupiditate illo distinctio!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="ma-img-first">
+                                    <img src="./images/dummy3.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="ma-img-second">
+                                    <img src="./images/dummy4.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="learn-more">
+                    <a href="#">Learn More</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</section>
+
 <!-- MAIN JOBS -->
 <section class="main-job sec-padding">
     <div class="container">
@@ -352,7 +412,6 @@
             <p>Be Informed</p>
             <h3>Latest News</h3>
         </div>
-
         <div class="mn-content">
             <div class="row">
                 <div class="col-lg-4">
@@ -404,8 +463,110 @@
 
                 </div>
             </div>
+            <div class="learn-more">
+                <a href="#">View all</a>
+            </div>
         </div>
     </div>
 </section>
 
+
+<!-- MESSAGE -->
+<section class="main-message sec-padding">
+    <div class="container">
+        <div class="main-message-content">
+            <div class="sec-title">
+                <p>leader Says</p>
+                <h3>Message To You</h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="mm-img">
+                        <img src="./images/dummy4.jpg" alt="">
+
+                    </div>
+                    <div class="mm-social-icon">
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="mm-text">
+                        <h3>Naive Shrestha</h3>
+                        <h5>Cheif</h5>
+
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est quod dolor perferendis autem adipisci porro iure repellat molestiae atque ex fugit, impedit accusamus delectus reprehenderit sunt sed temporibus. Cupiditate, esse.
+                        </p>
+
+                        <div class="mm-signature">
+                            <img src="./images/sign.png" alt="">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+<!-- Gallery -->
+<section class="main-gallery sec-padding">
+    <div class="container">
+        <div class="main-gallery-content">
+            <div class="sec-title">
+                <p>Reminiscence</p>
+                <h3>Gallery</h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="mg-img">
+                        <img src="./images/dummy4.jpg" alt="">
+                    </div>
+                    <div class="mg-img-caption">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate suscipit reprehenderit consequatur, inventore officia quas hic nisi alias.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="mg-img">
+                        <img src="./images/dummy4.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="mg-img">
+                        <img src="./images/dummy4.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="mg-img">
+                        <img src="./images/dummy4.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="mg-img">
+                        <img src="./images/dummy4.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="mg-img">
+                        <img src="./images/dummy4.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="learn-more">
+            <a href="#">View all</a>
+        </div>
+    </div>
+</section>
 <?php include 'footer.php' ?>
