@@ -1,3 +1,17 @@
+$(document).ready(function () {
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 1500) {
+      $("#myTopbtn").fadeIn();
+    } else {
+      $("#myTopbtn").fadeOut();
+    }
+  });
+  $("#myTopbtn").click(function () {
+    $("html, body").animate({ scrollTop: 0 }, 600);
+    return false;
+  });
+});
+
 
 $('.single-item').slick({
     dots: false,
