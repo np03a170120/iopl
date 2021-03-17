@@ -87,12 +87,12 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="ma-img-first">
-                                    <img src="./images/dummy3.jpg" alt="">
+                                    <img src="./images/dummy6.jpg" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="ma-img-second">
-                                    <img src="./images/dummy4.jpg" alt="">
+                                    <img src="./images/dummy5.jpg" alt="">
                                 </div>
                             </div>
                         </div>
@@ -130,22 +130,42 @@
                         <div class="col-lg-3">
                             <div class="form-field-wrapper">
                                 <i class="fas fa-map-marker-alt"></i>
-                                <label for="exampleInputEmail1"></label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="location">
-
+                                <div class="select-category">
+                                    <select name="category" id="category">
+                                        <option value="Assurance">Nepal</option>
+                                        <option value="USA">USA</option>
+                                        <option value="China">China</option>
+                                        <option value="Canada">Canada</option>
+                                        <option value="france">France</option>
+                                        <option value="japan">Japan</option>
+                                        <option value="Dubai">Dubai</option>
+                                        <option value="Turkey">Turkey</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
 
                         <div class="col-lg-3">
                             <div class="form-field-wrapper">
                                 <i class="fas fa-inbox"></i>
-                                <label for="exampleInputEmail1"></label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="category">
+                                <div class="select-category">
+                                    <select name="category" id="category">
+                                        <option value="Itsector">IT Sector</option>
+                                        <option value="Software">Software</option>
+                                        <option value="PublicSector">Public Sector</option>
+                                        <option value="Design">Design</option>
+                                        <option value="ITSector">IT Sector</option>
+                                        <option value="Management">Management</option>
+                                        <option value="Photography">Photography</option>
+                                        <option value="Software">Software</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
+
                         <div class="col-lg-3">
                             <div class="form-icon-wrapper">
-                                <i class="btn fas fa-search"></i>
+                                <button> <span>Search</span><i class="btn fas fa-search"></i></button>
                             </div>
 
                         </div>
@@ -335,9 +355,19 @@
                     <div class="col-lg-6">
                         <div class="mt-left">
                             <div class="mt-img">
-                                <img src="./images/dummy3.jpg" alt="">
+                                <img src="./images/dummy6.jfif" alt="">
                             </div>
-
+                            <div class="mm-social-icon">
+                                <a href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -361,7 +391,17 @@
                             <div class="mt-img">
                                 <img src="./images/dummy4.jpg" alt="">
                             </div>
-
+                            <div class="mm-social-icon">
+                                <a href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -383,9 +423,19 @@
                     <div class="col-lg-6">
                         <div class="mt-left">
                             <div class="mt-img">
-                                <img src="./images/dummy4.jpg" alt="">
+                                <img src="./images/dummy5.jpg" alt="">
                             </div>
-
+                            <div class="mm-social-icon">
+                                <a href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -417,7 +467,7 @@
                 <div class="col-lg-4">
                     <div class="mn-content-single">
                         <div class="mn-img">
-                            <img src="./images/dummy1.jpg" alt="">
+                            <img src="./images/dummy8.jpg" alt="">
                         </div>
 
                         <div class="date-posted">
@@ -433,7 +483,7 @@
                 <div class="col-lg-4">
                     <div class="mn-content-single">
                         <div class="mn-img">
-                            <img src="./images/dummy1.jpg" alt="">
+                            <img src="./images/dummy6.jpg" alt="">
                         </div>
 
                         <div class="date-posted">
@@ -449,7 +499,7 @@
                 <div class="col-lg-4">
                     <div class="mn-content-single">
                         <div class="mn-img">
-                            <img src="./images/dummy1.jpg" alt="">
+                            <img src="./images/dummy7.jpg" alt="">
                         </div>
 
                         <div class="date-posted">
@@ -480,7 +530,7 @@
                 <h3>Message To You</h3>
             </div>
             <div class="row">
-                <div class="col-lg-8">
+                <div class="col-lg-6">
                     <div class="mm-img">
                         <img src="./images/dummy4.jpg" alt="">
 
@@ -497,18 +547,23 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-6">
                     <div class="mm-text">
                         <h3>Naive Shrestha</h3>
                         <h5>Cheif</h5>
 
                         <p>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est quod dolor perferendis autem adipisci porro iure repellat molestiae atque ex fugit, impedit accusamus delectus reprehenderit sunt sed temporibus. Cupiditate, esse.
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est quod dolor perferendis autem adipisci porro iure repellat molestiae atque ex fugit, impedit accusamus delectus reprehenderit sunt sed temporibus. Cupiditate, esse. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est quod dolor perferendis autem adipisci porro iure repellat molestiae atque ex fugit,
                         </p>
 
-                        <div class="mm-signature">
+
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est quod dolor perferendis autem adipisci porro iure repellat molestiae atque ex fugit, impedit accusamus delectus reprehenderit sunt sed temporibus. Cupiditate, esse. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est quod dolor perferendis autem adipisci porro iure repellat molestiae atque ex fugit,
+                        </p>
+
+                        <!-- <div class="mm-signature">
                             <img src="./images/sign.png" alt="">
-                        </div>
+                        </div> -->
                     </div>
 
                 </div>
@@ -528,38 +583,27 @@
             </div>
             <div class="row">
                 <div class="col-lg-4">
-                    <div class="mg-img">
-                        <img src="./images/dummy4.jpg" alt="">
-                    </div>
-                    <div class="mg-img-caption">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate suscipit reprehenderit consequatur, inventore officia quas hic nisi alias.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="mg-img">
-                        <img src="./images/dummy4.jpg" alt="">
+                    <div class="mg-img-wrapper">
+                        <a class="fancybox" href="./images/dummy6.jpg">
+                            <i class="fas fa-expand-arrows-alt"></i>
+                        </a>
+                        <img src="./images/dummy6.jpg" alt="">
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="mg-img">
-                        <img src="./images/dummy4.jpg" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="mg-img">
-                        <img src="./images/dummy4.jpg" alt="">
+                    <div class="mg-img-wrapper">
+                        <a class="fancybox" href="./images/dummy6.jpg">
+                            <i class="fas fa-expand-arrows-alt"></i>
+                        </a>
+                        <img src="./images/dummy6.jpg" alt="">
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="mg-img">
-                        <img src="./images/dummy4.jpg" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="mg-img">
-                        <img src="./images/dummy4.jpg" alt="">
+                    <div class="mg-img-wrapper">
+                        <a class="fancybox" href="./images/dummy6.jpg">
+                            <i class="fas fa-expand-arrows-alt"></i>
+                        </a>
+                        <img src="./images/dummy6.jpg" alt="">
                     </div>
                 </div>
             </div>

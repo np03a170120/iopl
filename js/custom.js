@@ -31,3 +31,19 @@ $('.slider-testimonial').slick({
     dots:true,
   
   });
+
+
+// GALLERY
+$(document).ready(function () {
+  $(".fancybox").fancybox({
+    openEffect: "none",
+    closeEffect: "none",
+    helpers: {
+      overlay: {
+        css: {
+          background: "rgba(58, 42, 45, 0.95)",
+        },
+      },
+    },
+  });
+});

@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="./css/slick.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work Sans">
     <link rel="stylesheet" href="./fontawesome-free-5.15.2-web/css/all.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.css" media="screen">
     <link rel="stylesheet" href="./css/main.css">
 
     <title>Indigo Overseas</title>
@@ -39,19 +41,24 @@
                                             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Features</a>
+                                            <a class="nav-link" href="#">About Us</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Pricing</a>
+                                            <a class="nav-link" href="#">Blog</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Contact Us</a>
                                         </li>
                                         <li class="nav-item dropdown">
                                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                Dropdown link
+                                                Jobs
                                             </a>
                                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                                <a class="dropdown-item" href="#">Action</a>
-                                                <a class="dropdown-item" href="#">Another action</a>
-                                                <a class="dropdown-item" href="#">Something else here</a>
+                                                <a class="dropdown-item" href="#">Contract</a>
+                                                <a class="dropdown-item" href="#">Freelance</a>
+                                                <a class="dropdown-item" href="#">Internship</a>
+                                                <a class="dropdown-item" href="#">Partime</a>
+                                                <a class="dropdown-item" href="#">Temporary</a>
                                             </div>
                                         </li>
                                     </ul>
