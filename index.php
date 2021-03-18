@@ -607,6 +607,32 @@
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="mg-img-wrapper">
+                        <a class="fancybox" href="./images/dummy6.jpg">
+                            <i class="fas fa-expand-arrows-alt"></i>
+                        </a>
+                        <img src="./images/dummy6.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="mg-img-wrapper">
+                        <a class="fancybox" href="./images/dummy6.jpg">
+                            <i class="fas fa-expand-arrows-alt"></i>
+                        </a>
+                        <img src="./images/dummy6.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="mg-img-wrapper">
+                        <a class="fancybox" href="./images/dummy6.jpg">
+                            <i class="fas fa-expand-arrows-alt"></i>
+                        </a>
+                        <img src="./images/dummy6.jpg" alt="">
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="learn-more">
             <a href="#">View all</a>

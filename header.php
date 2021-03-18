@@ -38,16 +38,16 @@
                                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                                     <ul class="navbar-nav">
                                         <li class="nav-item active">
-                                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                            <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">About Us</a>
+                                            <a class="nav-link" href="about.php">About Us</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Blog</a>
+                                            <a class="nav-link" href="blog.php">Blog</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Contact Us</a>
+                                            <a class="nav-link" href="contact.php">Contact Us</a>
                                         </li>
                                         <li class="nav-item dropdown">
                                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
