@@ -333,7 +333,7 @@
             </div>
 
             <div class="mj-view-all">
-                <a href="#">View all</a>
+                <a href="inner-job.php">View all</a>
             </div>
         </div>
 
@@ -514,7 +514,7 @@
                 </div>
             </div>
             <div class="learn-more">
-                <a href="#">View all</a>
+                <a href="blog.php">View all</a>
             </div>
         </div>
     </div>

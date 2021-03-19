@@ -49,7 +49,14 @@
                                         <li class="nav-item">
                                             <a class="nav-link" href="contact.php">Contact Us</a>
                                         </li>
-                                        <li class="nav-item dropdown">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="inner-job.php">Jobs</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="gallery.php">Gallery</a>
+                                        </li>
+                                        <!-- DROPDOWN LINK HERE -->
+                                        <!-- <li class="nav-item dropdown">
                                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                 Jobs
                                             </a>
@@ -60,7 +67,7 @@
                                                 <a class="dropdown-item" href="#">Partime</a>
                                                 <a class="dropdown-item" href="#">Temporary</a>
                                             </div>
-                                        </li>
+                                        </li> -->
                                     </ul>
                                 </div>
                             </nav>
