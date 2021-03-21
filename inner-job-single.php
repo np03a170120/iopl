@@ -10,8 +10,8 @@
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-                    <li class="breadcrumb-item"><a href="index.php">Job</a></li>
-                    <li class="breadcrumb-item active"><a href="index.php">UI/UX Designer</a></li>
+                    <li class="breadcrumb-item"><a href="inner-job.php">Job</a></li>
+                    <li class="breadcrumb-item active"><a href="#">UI/UX Designer</a></li>
                 </ol>
             </nav>
         </div>

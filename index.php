@@ -2,7 +2,7 @@
 
 <!-- MAIN BANNER -->
 <section class="main-banner">
-    <div class="main-banner-slider single-item">
+    <div class="main-banner-slider main-banner-slider">
 
         <div class="main-banner-single" style="background-image: url(images/dummy1.jpg);">
             <div class="container">
@@ -12,7 +12,7 @@
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam ipsam dolorem iure. Velit natus esse dolore hic maiores magnam porro. Placeat dolor praesentium voluptatem obcaecati? Voluptatem eligendi sed consectetur obcaecati?
                     </p>
                     <div class="learn-more">
-                        <a href="#">Learn More</a>
+                        <a href="about.php">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -99,7 +99,7 @@
                     </div>
                 </div>
                 <div class="learn-more">
-                    <a href="#">Learn More</a>
+                    <a href="about.php">Learn More</a>
                 </div>
 
             </div>
@@ -198,12 +198,9 @@
                                     <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
                                     <label class="form-check-label" for="inlineCheckbox2">Temporary</label>
                                 </div>
-
-
                             </div>
                         </div>
                     </div>
-
                 </div>
             </form>
         </div>
@@ -233,14 +230,13 @@
                                 </ul>
 
                                 <div class="mj-view-details">
-                                    <a href="#">View</a>
+                                    <a href="inner-job-single.php">View</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
             <div class="mj-job-result-single">
                 <div class="row">
                     <div class="col-lg-2">
@@ -254,7 +250,7 @@
                             <div class="mj-tag">
                                 <span>Freelance</span>
                             </div>
-                            <h5>UI/UX Designer</h5>
+                            <h5>Graphics Designer</h5>
                             <p>Ultrabyte</p>
                             <div class="mj-info">
                                 <ul>
@@ -262,20 +258,20 @@
                                     <li> <i class="far fa-flag"></i> Nepal</li>
                                     <li> <i class="fas fa-dollar-sign"></i> 50,000</li>
                                 </ul>
+
                                 <div class="mj-view-details">
-                                    <a href="#">View</a>
+                                    <a href="inner-job-single.php">View</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
             <div class="mj-job-result-single">
                 <div class="row">
                     <div class="col-lg-2">
                         <div class="mj-img">
-                            <img src="./images/dummy1.jpg" alt="">
+                            <img src="./images/logo.png" alt="">
                         </div>
                     </div>
 
@@ -284,7 +280,7 @@
                             <div class="mj-tag">
                                 <span>Freelance</span>
                             </div>
-                            <h5>UI/UX Designer</h5>
+                            <h5>Graphics Designer</h5>
                             <p>Ultrabyte</p>
                             <div class="mj-info">
                                 <ul>
@@ -292,20 +288,20 @@
                                     <li> <i class="far fa-flag"></i> Nepal</li>
                                     <li> <i class="fas fa-dollar-sign"></i> 50,000</li>
                                 </ul>
+
                                 <div class="mj-view-details">
-                                    <a href="#">View</a>
+                                    <a href="inner-job-single.php">View</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
             <div class="mj-job-result-single">
                 <div class="row">
                     <div class="col-lg-2">
                         <div class="mj-img">
-                            <img src="./images/dummy1.jpg" alt="">
+                            <img src="./images/logo.png" alt="">
                         </div>
                     </div>
 
@@ -314,7 +310,7 @@
                             <div class="mj-tag">
                                 <span>Freelance</span>
                             </div>
-                            <h5>UI/UX Designer</h5>
+                            <h5>Graphics Designer</h5>
                             <p>Ultrabyte</p>
                             <div class="mj-info">
                                 <ul>
@@ -322,15 +318,16 @@
                                     <li> <i class="far fa-flag"></i> Nepal</li>
                                     <li> <i class="fas fa-dollar-sign"></i> 50,000</li>
                                 </ul>
+
                                 <div class="mj-view-details">
-                                    <a href="#">View</a>
+                                    <a href="inner-job-single.php">View</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
             </div>
+
 
             <div class="mj-view-all">
                 <a href="inner-job.php">View all</a>
@@ -355,7 +352,7 @@
                     <div class="col-lg-6">
                         <div class="mt-left">
                             <div class="mt-img">
-                                <img src="./images/dummy6.jfif" alt="">
+                                <img src="./images/dummy3.jpg" alt="">
                             </div>
                             <div class="mm-social-icon">
                                 <a href="#">
@@ -389,7 +386,7 @@
                     <div class="col-lg-6">
                         <div class="mt-left">
                             <div class="mt-img">
-                                <img src="./images/dummy4.jpg" alt="">
+                                <img src="./images/dummy6.jpg" alt="">
                             </div>
                             <div class="mm-social-icon">
                                 <a href="#">
@@ -451,6 +448,7 @@
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
 </section>
@@ -467,7 +465,9 @@
                 <div class="col-lg-4">
                     <div class="mn-content-single">
                         <div class="mn-img">
-                            <img src="./images/dummy8.jpg" alt="">
+                            <a href="inner-blog.php">
+                                <img src="./images/dummy8.jpg" title="Blog Title" alt="">
+                            </a>
                         </div>
 
                         <div class="date-posted">
@@ -478,12 +478,13 @@
                             <h6><a href="#"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sapiente iste Dolor sapiente ist</a></h6>
                         </div>
                     </div>
-
                 </div>
                 <div class="col-lg-4">
                     <div class="mn-content-single">
                         <div class="mn-img">
-                            <img src="./images/dummy6.jpg" alt="">
+                            <a href="inner-blog.php">
+                                <img src="./images/dummy8.jpg" title="Blog Title" alt="">
+                            </a>
                         </div>
 
                         <div class="date-posted">
@@ -494,12 +495,13 @@
                             <h6><a href="#"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sapiente iste Dolor sapiente ist</a></h6>
                         </div>
                     </div>
-
                 </div>
                 <div class="col-lg-4">
                     <div class="mn-content-single">
                         <div class="mn-img">
-                            <img src="./images/dummy7.jpg" alt="">
+                            <a href="inner-blog.php">
+                                <img src="./images/dummy8.jpg" title="Blog Title" alt="">
+                            </a>
                         </div>
 
                         <div class="date-posted">
@@ -510,8 +512,8 @@
                             <h6><a href="#"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sapiente iste Dolor sapiente ist</a></h6>
                         </div>
                     </div>
-
                 </div>
+
             </div>
             <div class="learn-more">
                 <a href="blog.php">View all</a>
@@ -533,10 +535,9 @@
                 <div class="col-lg-6">
                     <div class="mm-img">
                         <img src="./images/dummy4.jpg" alt="">
-
                     </div>
                     <div class="mm-social-icon">
-                        <a href="#">
+                        <a href="">
                             <i class="fab fa-facebook-f"></i>
                         </a>
                         <a href="#">
@@ -592,10 +593,10 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="mg-img-wrapper">
-                        <a class="fancybox" href="./images/dummy6.jpg">
+                        <a class="fancybox" href="./images/dummy5.jpg">
                             <i class="fas fa-expand-arrows-alt"></i>
                         </a>
-                        <img src="./images/dummy6.jpg" alt="">
+                        <img src="./images/dummy5.jpg" alt="">
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -610,18 +611,18 @@
             <div class="row">
                 <div class="col-lg-4">
                     <div class="mg-img-wrapper">
-                        <a class="fancybox" href="./images/dummy6.jpg">
+                        <a class="fancybox" href="./images/dummy8.jpg">
                             <i class="fas fa-expand-arrows-alt"></i>
                         </a>
-                        <img src="./images/dummy6.jpg" alt="">
+                        <img src="./images/dummy8.jpg" alt="">
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="mg-img-wrapper">
-                        <a class="fancybox" href="./images/dummy6.jpg">
+                        <a class="fancybox" href="./images/dummy4.jpg">
                             <i class="fas fa-expand-arrows-alt"></i>
                         </a>
-                        <img src="./images/dummy6.jpg" alt="">
+                        <img src="./images/dummy4.jpg" alt="">
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -635,7 +636,7 @@
             </div>
         </div>
         <div class="learn-more">
-            <a href="#">View all</a>
+            <a href="inner-gallery-album.php">View all</a>
         </div>
     </div>
 </section>

@@ -72,6 +72,7 @@ header{
         }
     }   
 }
+
 .mbs-text{
     z-index: 20;
     text-align: center;
@@ -87,8 +88,18 @@ header{
         display: inline-block;
         padding: 20px;
     }
-   
+
+    .learn-more {
+        margin-top: 30px;
+        a {
+            &:hover{
+                color: indigo !important;
+            }
+        }
+    }
 }
+
+
 .main-banner .slick-dots {
     position: absolute;
     bottom: 20px;
@@ -257,7 +268,7 @@ header{
      }
 
      &:last-child{
-         padding-bottom: 20px;
+         padding-bottom: 80px;
      }
      
  }
@@ -362,6 +373,7 @@ header{
     
 }
 
+
 // ul.slick-dots li button {
 //     color: transparent;
 //     height: 5px;
@@ -391,6 +403,7 @@ ul.slick-dots {
         object-fit: cover;
         transition: all 0.2s linear;
         border-radius: 5px;
+        margin: 1px;
        
     }
   
@@ -604,12 +617,13 @@ ul.slick-dots {
     overflow: hidden;
     position: relative;
     margin-top: 20px;
-
+    border-radius: 5px;
     img {
         height: 250px;
         width: 100%;
         object-fit: cover;
         transition: all 0.3s ease-in-out;
+        border-radius: 5px;
     }
      
     i {
@@ -724,9 +738,54 @@ ul.slick-dots {
     h3 {
         padding: 30px 0;
     }
+    
+    ul {
+        position: relative;
+
+        li {
+            padding: 10px;
+            line-height: 1.875em;
+            color: #7e8890;
+            font-size: 16px;
+
+            &:before {
+                content: '\f111';
+                font-family: "Font Awesome 5 Free";
+                font-weight: 800;
+                position: absolute;
+                left: -1%;
+                font-size: 8px;
+                color: grey;
+            }
+        }
+    }
+
 }
 
+.message-about {
+    p {
+        color:grey;
+    }
 
+    h3 {
+        color: black;
+    }
+
+    h5 {
+        color: black;
+    }
+    .sec-padding-custom {
+        padding-top: 40px;
+        padding-bottom: 80px;
+    }
+}
+
+.ab-objective {
+    padding: 30px 0;
+    h3 {
+        padding: 20px 0;
+    }
+}
 
 .ab-img-wrapper {
     
@@ -763,9 +822,14 @@ ul.slick-dots {
     }
 }
 
+.about-right {
+    margin-left: 30px;
+    position: sticky;
+    top: 30px;
+}
+
 .ar-category {
     padding: 30px 0;
-    margin-left: 50px;
     height: 100%;
 
     ul {
@@ -797,7 +861,6 @@ ul.slick-dots {
 .ar-latest-news {
     padding: 30px 0;
     height: 100%;
-    margin-left: 50px;
 
     h5{ 
         padding: 5px 5px;
@@ -827,34 +890,44 @@ ul.slick-dots {
 
     .ar-img {
         img {
-            width: 50px;
-            height: 50px;
+            width: 70px;
+            height: 70px;
             object-fit: cover;
         }
     }
-
     &:nth-child(even){
         background-color: rgba(243, 243, 243, 0.74);
     }
-    
-
 }
 
+.inner-about-message {
+    // box-shadow: 7px 6px 6px 0px #88888821;
+    padding: 20px 0px;
+    img {
+        height: 400px;
+    }
+    p {
+        color: grey;
+    }
+    h3,h5{
+        color: black;
+    }
+}
 
 // CONTACT PHP
 
-.contact-info-detail {
-    .ci-detail {
+.contact-style {
+    a {
         i {
-            font-size: 25px;
+            font-size: 30px;
+        }
+
+        span {
+            font-size: 18px;
         }
     }
-    span {
-        font-size: 18px;
-    }
+   
 }
-
-
 // BLOG PHP
 
 .blog-single {
@@ -867,7 +940,7 @@ ul.slick-dots {
         width: 100%;
         height: 250px;
         object-fit: cover;
-        transition: 0.1s linear;
+        transition: all 0.3s ease-in-out;
     }
 
     .blog-text {
@@ -1063,7 +1136,6 @@ ul.slick-dots {
 
 // CONTACT PHP
 .contact-detail{
-    padding: 20px 30px;
     h3 {
         margin-bottom: 30px;
         text-align: center;
@@ -1088,9 +1160,90 @@ ul.slick-dots {
     }
 }
 
+.contact-info {
+    padding-bottom:40px ;
 
+    .cs-pad {
+        padding-bottom: 16px;
+        padding-top: 10px;
+    }
+}
 
+.contact-style {
 
+    a {
+        margin-right: 20px;
+    }
+
+    i {
+        font-size: 18px;
+        color: grey;
+    }
+    span {
+        padding: 0 20px;
+        font-size: 16px;
+        color: grey;
+    }
+}
+
+// ALBUM PHP
+
+.ga-single {
+    
+    box-shadow: 7px 6px 6px 0px #88888821;
+    padding: 5px 10px;
+    border-radius: 5px;
+    overflow: hidden;
+
+    h5 {
+        text-align: center;
+        padding: 20px 0;
+    }
+    
+    .ga-single-img {
+        position: relative;
+        img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;   
+            border-radius: 5px;
+            transition: all 0.3s ease-in-out;
+            
+        }
+
+        &::after {
+            content: '\f03e';
+            font-weight: 800;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            font-family:"Font Awesome 5 Free";
+            color: white;
+            font-size: 20px;
+        }
+    }
+
+    .date-posted {
+        text-align: center;
+        padding-left: 0;
+        span {
+            margin-right: 6px;
+            font-size: 10px;
+        }
+
+        i {
+            font-size: 10px;
+        }
+    }
+
+    &:hover img {
+        transform: scale(1.1);
+    }
+    
+}
+.gc-padding {
+    padding: 30px 0;
+}
 
 
 
@@ -1125,6 +1278,10 @@ ul.slick-dots {
             text-align: center;
             font-size: 13px;
         }
+
+        a {
+            text-decoration: underline; 
+        }
     }
 }
 
@@ -1157,6 +1314,10 @@ ul.slick-dots {
                 color: white;
                 font-size: 16px;
                 padding-left: 10px;
+
+                &:hover {
+                    color: rgb(192, 145, 226);
+                }
             }
 
             &::before {
@@ -1258,7 +1419,9 @@ ul.slick-dots {
             padding: 5px 10px;
         }
     }
+
 }
+
 
 .footer-bottom {
     background-color:#e2e2e2;
@@ -1269,5 +1432,9 @@ ul.slick-dots {
 
     a {
         color: black !important;
+
+        &:hover {
+            color: indigo !important;
+        }
     }
 }

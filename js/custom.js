@@ -13,15 +13,17 @@ $(document).ready(function () {
 });
 
 
-$('.single-item').slick({
+// MAIN BANNER SLIDER
+$('.main-banner-slider').slick({
     dots: false,
     prevArrow: false,
     nextArrow: false,
     autoplay:false,
     autplaySpeed:1500,
-  
   });
 
+
+// TESTIMONIAL SLIDER
 $('.slider-testimonial').slick({
     dots: false,
     prevArrow: false,

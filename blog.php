@@ -2,7 +2,7 @@
 <section class="inner-breadcrumb" style="background-image: url(images/dummy.jpg);">
     <div class="container">
         <div class="sec-title">
-            <p>Know us</p>
+            <p>Get informed</p>
             <h3>Indigo Blog</h3>
         </div>
         <div class="ib-content">
@@ -23,7 +23,9 @@
                 <div class="col-lg-4">
                     <div class="blog-single">
                         <div class="blog-img-wrapper">
-                            <img src="./images/dummy8.jpg" alt="">
+                            <a href="inner-blog.php">
+                                <img src="./images/dummy8.jpg" alt="">
+                            </a>
                         </div>
                         <div class="blog-text">
                             <div class="date-posted">
@@ -36,7 +38,9 @@
                 <div class="col-lg-4">
                     <div class="blog-single">
                         <div class="blog-img-wrapper">
-                            <img src="./images/dummy6.jpg" alt="">
+                            <a href="inner-blog.php">
+                                <img src="./images/dummy6.jpg" alt="">
+                            </a>
                         </div>
                         <div class="blog-text">
                             <div class="date-posted">
@@ -49,7 +53,9 @@
                 <div class="col-lg-4">
                     <div class="blog-single">
                         <div class="blog-img-wrapper">
-                            <img src="./images/dummy3.jpg" alt="">
+                            <a href="inner-blog.php">
+                                <img src="./images/dummy3.jpg" alt="">
+                            </a>
                         </div>
                         <div class="blog-text">
                             <div class="date-posted">
@@ -64,7 +70,9 @@
                 <div class="col-lg-4">
                     <div class="blog-single">
                         <div class="blog-img-wrapper">
-                            <img src="./images/dummy8.jpg" alt="">
+                            <a href="inner-blog.php">
+                                <img src="./images/dummy8.jpg" alt="">
+                            </a>
                         </div>
                         <div class="blog-text">
                             <div class="date-posted">
@@ -77,7 +85,9 @@
                 <div class="col-lg-4">
                     <div class="blog-single">
                         <div class="blog-img-wrapper">
-                            <img src="./images/dummy8.jpg" alt="">
+                            <a href="inner-blog.php">
+                                <img src="./images/dummy8.jpg" alt="">
+                            </a>
                         </div>
                         <div class="blog-text">
                             <div class="date-posted">
@@ -90,7 +100,9 @@
                 <div class="col-lg-4">
                     <div class="blog-single">
                         <div class="blog-img-wrapper">
-                            <img src="./images/dummy8.jpg" alt="">
+                            <a href="inner-blog.php">
+                                <img src="./images/dummy8.jpg" alt="">
+                            </a>
                         </div>
                         <div class="blog-text">
                             <div class="date-posted">

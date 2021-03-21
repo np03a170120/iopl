@@ -3,14 +3,14 @@
 <section class="inner-breadcrumb" style="background-image: url(images/dummy.jpg);">
     <div class="container">
         <div class="sec-title">
-            <p>Know us</p>
+            <p>Get informed</p>
             <h3>Indigo Blog</h3>
         </div>
         <div class="ib-content">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item active"><a href="index.php">Home</a></li>
-                    <li class="breadcrumb-item active"><a href="index.php">Blog</a></li>
+                    <li class="breadcrumb-item active"><a href="blog.php">Blog</a></li>
                     <li class="breadcrumb-item"><a href="#">Blog Title</a></li>
                 </ol>
             </nav>

@@ -11,13 +11,17 @@
                             <div class="ftm-text">
                                 <p>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro dolor eaque eum modi fugit consectetur quisquam ipsum, exercitationem inventore molestiae dignissimos cupiditate quae rem ullam. Odit ex magnam consequuntur vitae?
+                                    <a href="extra.php" class="d-flex justify-content-center text-white">Privacy Policies</a>
                                 </p>
+
+
+
                             </div>
                             <div class="ftm-social-icon">
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                                <a href="https://twitter.com/home?lang=en" target="_blank"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.linkedin.com/feed/" target="_blank"><i class="fab fa-linkedin"></i></a>
                             </div>
                         </div>
                     </div>
@@ -29,12 +33,53 @@
                                     <div class="ftm-useful-link">
                                         <h3>Quick Links</h3>
                                         <ul>
-                                            <li><a href="#">Home</a></li>
-                                            <li><a href="#">About Us</a></li>
-                                            <li><a href="#">Contact Us</a></li>
-                                            <li><a href="#">Blog</a></li>
-                                            <li><a href="#">Jobs</a></li>
+                                            <li><a href="index.php">Home</a></li>
+                                            <li><a href="about.php">About Us</a></li>
+                                            <li><a href="contact.php">Contact Us</a></li>
+                                            <li><a href="blog.php">Blog</a></li>
+                                            <li><a href="inner-job.php">Jobs</a></li>
+                                            <li><a href="gallery.php">Gallery</a></li>
                                         </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="ftm-center-single">
+                                    <h3>Latest Jobs</h3>
+                                    <div class="row">
+                                        <div class="ftm-job-single">
+                                            <div class="ftm-left">
+                                                <a href="inner-blog.php">
+                                                    <img src="./images/dummy1.jpg" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="ftm-right">
+                                                <h5> <a href="inner-blog.php""> NAIVE JOBS</h5></a>
+                                                <span><i class=" fas fa-map-marker-alt"></i> Kathmandu</span>
+                                            </div>
+                                        </div>
+                                        <div class="ftm-job-single">
+                                            <div class="ftm-left">
+                                                <a href="inner-blog.php"">
+                                                    <img src=" ./images/dummy1.jpg" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="ftm-right">
+                                                <h5> <a href="#"> NAIVE JOBS</h5></a>
+                                                <span><i class="fas fa-map-marker-alt"></i> Kathmandu</span>
+                                            </div>
+                                        </div>
+                                        <div class="ftm-job-single">
+                                            <div class="ftm-left">
+                                                <a href="inner-blog.php"">
+                                                    <img src=" ./images/dummy1.jpg" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="ftm-right">
+                                                <h5> <a href="inner-blog.php""> NAIVE JOBS</h5></a>
+                                                <span><i class=" fas fa-map-marker-alt"></i> Kathmandu</span>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -44,63 +89,22 @@
                                     <div class="ftm-info">
                                         <ul>
                                             <div class="ftm-info-one">
-                                                <li> <a href="#"><i class="fas fa-phone"></i> 9847779841</a></li>
-                                                <li> <a href="#"><i class="fas fa-map-marked-alt"></i>Kathmandu</a></li>
-                                                <li> <a href="#"><i class="fas fa-envelope"></i>demo@company.com</a></li>
+                                                <li> <a href="tel:9847779841"><i class="fas fa-phone"></i> 9847779841</a></li>
+                                                <li> <a href="https://www.google.com/maps/place/Ultrabyte+International+Pvt.+Ltd/@27.7030257,85.3332693,17z/data=!3m1!4b1!4m5!3m4!1s0x39eb199f75f08da5:0x641a4463533be28c!8m2!3d27.703021!4d85.335458" target="_blank"><i class="fas fa-map-marked-alt"></i>Kathmandu</a></li>
+                                                <li> <a href="mailto:czon.herald75@gmail.com" target="_blank"><i class="fas fa-envelope"></i>demo@company.com</a></li>
                                             </div>
 
                                             <div class="ftm-info-two pt-3">
-                                                <li> <a href="#"><i class="fas fa-phone"></i> 9847779841</a></li>
-                                                <li> <a href="#"><i class="fas fa-map-marked-alt"></i>Kathmandu</a></li>
-                                                <li> <a href="#"><i class="fas fa-envelope"></i>demo@company.com</a></li>
+                                                <li> <a href="tel:9847779841"><i class="fas fa-phone"></i> 9847779841</a></li>
+                                                <li> <a href="https://www.google.com/maps/place/Ultrabyte+International+Pvt.+Ltd/@27.7030257,85.3332693,17z/data=!3m1!4b1!4m5!3m4!1s0x39eb199f75f08da5:0x641a4463533be28c!8m2!3d27.703021!4d85.335458" target="_blank"><i class="fas fa-map-marked-alt"></i>Kathmandu</a></li>
+                                                <li> <a href="mailto:czon.herald75@gmail.com" target="_blank"><i class="fas fa-envelope"></i>demo@company.com</a></li>
                                             </div>
 
                                         </ul>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
 
-
-                                <div class="ftm-center-single">
-                                    <h3>Latest Jobs</h3>
-                                    <div class="row">
-                                        <div class="ftm-job-single">
-                                            <div class="ftm-left">
-                                                <a href="#">
-                                                    <img src="./images/dummy1.jpg" alt="">
-                                                </a>
-                                            </div>
-                                            <div class="ftm-right">
-                                                <h5> <a href="#"> NAIVE JOBS</h5></a>
-                                                <span><i class="fas fa-map-marker-alt"></i> Kathmandu</span>
-                                            </div>
-                                        </div>
-                                        <div class="ftm-job-single">
-                                            <div class="ftm-left">
-                                                <a href="#">
-                                                    <img src="./images/dummy1.jpg" alt="">
-                                                </a>
-                                            </div>
-                                            <div class="ftm-right">
-                                                <h5> <a href="#"> NAIVE JOBS</h5></a>
-                                                <span><i class="fas fa-map-marker-alt"></i> Kathmandu</span>
-                                            </div>
-                                        </div>
-                                        <div class="ftm-job-single">
-                                            <div class="ftm-left">
-                                                <a href="#">
-                                                    <img src="./images/dummy1.jpg" alt="">
-                                                </a>
-                                            </div>
-                                            <div class="ftm-right">
-                                                <h5> <a href="#"> NAIVE JOBS</h5></a>
-                                                <span><i class="fas fa-map-marker-alt"></i> Kathmandu</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>

@@ -23,7 +23,9 @@
                 <div class="col-lg-6">
                     <div class="header-left">
                         <div class="header-left-logo">
-                            <img src="./images/logo.png" alt="">
+                            <a href="index.php">
+                                <img src="./images/logo.png" alt="">
+                            </a>
                         </div>
                     </div>
 
@@ -53,7 +55,7 @@
                                             <a class="nav-link" href="inner-job.php">Jobs</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="gallery.php">Gallery</a>
+                                            <a class="nav-link" href="inner-gallery-album.php">Gallery</a>
                                         </li>
                                         <!-- DROPDOWN LINK HERE -->
                                         <!-- <li class="nav-item dropdown">

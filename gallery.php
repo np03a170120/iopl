@@ -2,15 +2,15 @@
 <section class="inner-breadcrumb" style="background-image: url(images/dummy.jpg);">
     <div class="container">
         <div class="sec-title">
-            <p>Know us</p>
+            <p>Reminiscing</p>
             <h3>Indigo Gallery</h3>
         </div>
         <div class="ib-content">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-                    <li class="breadcrumb-item active"><a href="index.php">Gallery</a></li>
-
+                    <li class="breadcrumb-item"><a href="inner-gallery-album.php">Album</a></li>
+                    <li class="breadcrumb-item active"><a href="#">Gallery</a></li>
                 </ol>
             </nav>
         </div>
@@ -28,7 +28,9 @@
                         <a class="fancybox" href="./images/dummy6.jpg">
                             <i class="fas fa-expand-arrows-alt"></i>
                         </a>
+
                         <img src="./images/dummy5.jpg" alt="">
+
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -96,7 +98,7 @@
                         <a class="fancybox" href="./images/dummy6.jpg">
                             <i class="fas fa-expand-arrows-alt"></i>
                         </a>
-                        <img src="./images/dummy3s.jpg" alt="">
+                        <img src="./images/dummy3.jpg" alt="">
                     </div>
                 </div>
             </div>
